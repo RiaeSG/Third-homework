@@ -1,0 +1,21 @@
+.interactive-avatar{
+  width: 74px;
+  height: 74px;
+  border: 6px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+
+  &--active{
+    border-color: #FEDB3F;
+  }
+}
+
+.interactive-avatar__link{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+

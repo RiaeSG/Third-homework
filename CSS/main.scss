@@ -1,0 +1,43 @@
+$containerWidth: 1100px;
+$baseFontSize: 18px;
+
+
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&display=swap');
+
+@import "layout.scss";
+
+@import "components/hero.scss";
+
+@import "components/header.scss";
+
+@import "components/features.scss";
+
+@import "components/button.scss";
+
+@import "components/feature.scss";
+
+@import "components/section.scss";
+
+@import "components/headline.scss";
+
+@import "components/benefits.scss";
+
+@import "components/benefit.scss";
+
+@import "components/reviews.scss";
+
+@import "components/interactive-avatar.scss";
+
+@import "components/order-section.scss";
+
+@import "components/form.scss";
+
+@import "components/radio.scss";
+
+@import "components/map-section.scss";
+
+@import "components/fixed-menu.scss";

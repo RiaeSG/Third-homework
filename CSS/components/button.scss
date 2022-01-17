@@ -1,0 +1,20 @@
+.button{
+  padding: 21px 41px;
+  font-size: 16px;
+  font-weight: 800;
+  background: #FEDB3F;
+  color: black;
+  border-radius: 100px;
+  text-transform: uppercase;
+
+  &--transperent{
+    background: transparent;
+    color: #fff;
+    
+  }
+
+  &:hover{
+    background: black;
+    color: #FEDB3F;
+  }
+}
