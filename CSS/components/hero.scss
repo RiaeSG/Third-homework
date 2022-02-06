@@ -1,5 +1,5 @@
 .hero{
-  background: url(../../img/hero__img.png) right bottom no-repeat;
+  background: url(../img/hero__img.png) right bottom no-repeat;
   // height: 100vh;
   // min-height: rem(652px);
   // max-height: rem(652px);
@@ -7,7 +7,7 @@
   position: relative;
 
   @include tablets{
-      background: url(../../img/768-hero-bg.png)center no-repeat;
+      background: url(../img/768-hero-bg.png)center no-repeat;
     // position: absolute;
   }
 }

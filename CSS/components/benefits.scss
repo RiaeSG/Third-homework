@@ -14,7 +14,7 @@
   position: relative;
 
   &::before{
-    content: url(../../img/shape-circles.png);
+    content: url(../img/shape-circles.png);
     position: absolute;
     top: rem(30px);
     right: 0;

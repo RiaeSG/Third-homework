@@ -84,13 +84,13 @@ address {
 }
 
 .hero {
-  background: url(../../img/hero__img.png) right bottom no-repeat;
+  background: url(../img/hero__img.png) right bottom no-repeat;
   color: #fff;
   position: relative;
 }
 @media screen and (max-width: 768px) {
   .hero {
-    background: url(../../img/768-hero-bg.png) center no-repeat;
+    background: url(../img/768-hero-bg.png) center no-repeat;
   }
 }
 
@@ -302,7 +302,7 @@ address {
   height: 100vh;
   padding-right: 0;
   padding-left: 0;
-  background: url("./../../img/map.png");
+  background: url("../img/map.png");
 }
 
 .order-section {
@@ -365,7 +365,7 @@ address {
   position: relative;
 }
 .benefits__item::before {
-  content: url(../../img/shape-circles.png);
+  content: url(../img/shape-circles.png);
   position: absolute;
   top: 1.6666666667rem;
   right: 0;
@@ -402,6 +402,7 @@ address {
 }
 
 .benefit__image-wrapper {
+  display: inline-block;
   width: 7rem;
   height: 7rem;
   position: relative;
@@ -541,7 +542,7 @@ address {
 }
 
 .order-section {
-  background: url(../../img/bg-order-section.jpg);
+  background: url(../img/bg-order-section.jpg);
   color: #fff;
 }
 
@@ -629,7 +630,7 @@ address {
   border-radius: 0.2777777778rem;
 }
 .radio--checkbox .radio__visible:before {
-  background: url(../../img/img-checkbox.png) center no-repeat;
+  background: url(../img/img-checkbox.png) center no-repeat;
 }
 
 .radio__elem {
