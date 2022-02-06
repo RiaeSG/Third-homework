@@ -1,18 +1,23 @@
 $containerWidth: 1100px;
 $baseFontSize: 18px;
 
-
+$tablets: 768px;
+$phones: 480px;
 
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&display=swap');
 
-@import "layout.scss";
+@import "media";
+
+@import "layout";
 
 @import "components/hero.scss";
 
 @import "components/header.scss";
+
+@import "components/hamburger.scss";
 
 @import "components/features.scss";
 
@@ -41,3 +46,7 @@ $baseFontSize: 18px;
 @import "components/map-section.scss";
 
 @import "components/fixed-menu.scss";
+
+@import "components/footer.scss";
+
+@import "components/socials.scss"

@@ -1,10 +1,10 @@
 .button{
-  padding: 21px 41px;
-  font-size: 16px;
+  padding: rem(21px) rem(41px);
+  font-size: rem(16px);
   font-weight: 800;
   background: #FEDB3F;
   color: black;
-  border-radius: 100px;
+  border-radius: rem(100px);
   text-transform: uppercase;
 
   &--transperent{

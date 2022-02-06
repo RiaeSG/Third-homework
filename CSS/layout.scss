@@ -1,7 +1,19 @@
 * {
   box-sizing: border-box;
-  font-size: 18px;
+ 
   font-family: 'Alegreya Sans', sans-serif;
+}
+
+html {
+  font-size: $baseFontSize;
+  
+  @include tablets{
+    font-size: $baseFontSize - 1px;
+  }
+
+  @include phones{
+    font-size: $baseFontSize - 1px;
+  }
 }
 
 body {
@@ -10,17 +22,23 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  min-width: 1100px + 20px;
+  max-width: rem(1100px) + rem(20px);
   color: #666666;
+  
 }
 
 .container{
-  width: 1100px;
+  width: 95%;
+  max-width: $containerWidth;
+  margin: 0;
+  position: relative;
+  min-height: rem(652px);
+  padding-top: rem(60px);
+  margin-bottom: rem(10px);
 }
 
 .wrapper{
   position: relative;
-  width: 1100px;
   min-height: 100%;
   overflow: hidden;
 }
@@ -59,7 +77,7 @@ p {
 //   color: black;
 //   padding: 0;
 //   outline: none;
-//   border: 1px, solid transparent;
+//   border: rem(1px), solid transparent;
 //   cursor: pointer;
 // }
 

@@ -1,32 +1,56 @@
 .hero{
-  background: url(/img/hero__img.png)no-repeat;
-  height: 100vh;
-  min-height: 652px;
-  max-height: 652px;
+  background: url(../../img/hero__img.png) right bottom no-repeat;
+  // height: 100vh;
+  // min-height: rem(652px);
+  // max-height: rem(652px);
   color: #fff;
+  position: relative;
+
+  @include tablets{
+      background: url(../../img/768-hero-bg.png)center no-repeat;
+    // position: absolute;
+  }
+}
+
+.hero__icons-section{
+  @include tablets{
+    display: none;
+  }
 }
 
 .hero__container{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
-  padding: 24px 30px 61px;
+  // height: 100vh;
+  padding: rem(24px) rem(30px) rem(61px);
 }
 
 .hero__main-title{
-  font-size: 48px;
+  font-size: rem(48px);
   line-height: 1.1;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: rem(15px);
   text-transform: uppercase;
 }
 
 .hero__title-desc{
-  font-size: 21px;
-  margin-bottom: 28px;
+  font-size: rem(21px);
+  margin-bottom: rem(28px);
 }
 
 .hero__title-section{
   width: 43%;
+
+  @include tablets{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+  }
 }

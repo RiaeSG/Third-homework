@@ -1,6 +1,11 @@
 .benefits{
   display: flex;
-  padding: 50px;
+  padding: rem(50px);
+
+  @include phones{
+    display: block;
+  }
+  
 }
 
 .benefits__item{
@@ -11,10 +16,16 @@
   &::before{
     content: url(../../img/shape-circles.png);
     position: absolute;
-    top: 30px;
+    top: rem(30px);
     right: 0;
     transform: translateX(50%);
     
+
+    @include phones{
+      display: none;
+      padding: 0 3%;
+      
+    }
   }
 
   &:first-child{
